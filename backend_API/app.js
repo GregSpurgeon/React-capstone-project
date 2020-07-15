@@ -5,15 +5,15 @@ import { Schema } from 'mongoose'
 
 // Start App
 const port = process.env.PORT || 4000
-const current_server_directory = path.resolve(path.dirname("."))
-const static_directory = path.resolve(current_server_directory, "backend_API", "public")
+const CURRENT_SERVER_DIRECTORY = path.resolve(path.dirname("."))
+const STATIC_DIRECTORY = path.resolve(CURRENT_SERVER_DIRECTORY, "backend_API", "public")
 
 
 const app = express()
 // Middleware
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-app.use(express.static(static_directory))
+app.use(express.static(STATIC_DIRECTORY))
 
 app.get('/', (req, res) => {
     res.send('Capstone Backend')

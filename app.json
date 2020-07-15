@@ -1,0 +1,23 @@
+{
+  "name": "heroku-cra-node",
+  "version": "3.0.0",
+  "description": "How to use create-react-app with a custom Node API on Heroku",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node backend_API/index.js",
+    "build": "cd backend_API && npm install && cd ../front_end && npm install && npm run build && mv ./build ../backend_API/public"
+  },
+  "cacheDirectories": ["front_end/node_modules", "backend_API/node_modules"],
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gordonmathurin/capstone"
+  },
+  "keywords": ["node", "heroku", "create-react-app", "react"],
+  "license": "MIT",
+  "devDependencies": {}
+}
