@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/gordonmathurin/capstone"
+    "url": "https://github.com/marcornett/capstone-social-biking"
   },
   "keywords": ["node", "heroku", "create-react-app", "react"],
   "license": "MIT",
