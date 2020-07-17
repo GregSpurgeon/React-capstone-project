@@ -5,9 +5,8 @@ there is also a test image link that gives an image. *****/
 
 import React, { useState } from "react";
 import Image from 'react-bootstrap/Image'
-import Container from 'react-bootstrap/Container'
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import {Row, Col,Container} from "react-bootstrap"
+
 import "./ProfileIcon.css";
 
 
@@ -70,9 +69,7 @@ const SetProfileIcon = ({
 
         <Container>
             <Row>
-                <Col xs={3} md={2}>
-                    <Image className="profile-icon" src="https://picsum.photos/171/180" roundedCircle />
-                </Col>
+            <Image  className="profile-icon" src="https://picsum.photos/171/180" roundedCircle /> 
             </Row>
         </Container>
         // </div>

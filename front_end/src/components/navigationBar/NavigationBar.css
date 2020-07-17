@@ -1,6 +1,7 @@
 .nav-bar {
   background-color: #fc3f4a;
   border-bottom: #cccccc solid 0.01rem;
+  
 }
 
 .nav-links {
@@ -27,8 +28,13 @@ a.nav-links {
   margin-top: 60px;
 }
 img.rounded-circle {
-  margin-top: 15px;
+  margin:30px 0px 28px 0px;
   height: 120px;
   width: 120px;
   padding: 20px;
+}
+form.form-inline{
+ 
+  
+ 
 }
