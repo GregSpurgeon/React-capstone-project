@@ -1,6 +1,12 @@
 .nav-bar {
-  background-color: #fc3f4a;
-  border-bottom: #cccccc solid 0.01rem;
+  background-color:#1F141A ;
+  display: flex;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
 }
 
 .nav-links {
@@ -11,9 +17,9 @@
   font-weight: bolder;
 }
 
- button.navbar-toggler {
+button.navbar-toggler {
   background: #fbce2f;
-} 
+}
 nav {
   padding: 200px;
 }
